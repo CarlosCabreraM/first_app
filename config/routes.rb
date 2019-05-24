@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :zombies
   get 'pages/one'
   get 'pages/two'
   get 'pages/three'
